@@ -22,6 +22,7 @@ function getNewDog() {
   } else {
     currentDog = {};
     setTimeout(() => {
+      document.getElementById("actions").style.display = "none";
       document.getElementById("feature-suggestion").innerHTML = `
         <h1>NO MORE HOT DOGS LEFT :(</h1>
       `;
