@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: gray;
+}
+
+.container {
+  width: 28rem;
+  margin: 60px auto;
+  border: solid 5px black;
+  border-radius: 10px;
+  background-color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+#card .dog-img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+#card {
+  position: relative;
+  padding: 0px 10px;
+}
+
+.dog-info {
+  position: absolute;
+  color: white;
+  bottom: 15px;
+  left: 20px;
+}
+
+.badge {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 235px;
+  transform: rotate(-30deg);
+  margin: 35px 5px;
+  box-sizing: border-box;
+}
+
+.badge img {
+  width: 100%;
+}
+
+.profile-icon,
+.chat-icon {
+  height: 2.125em;
+}
+
+.logo-icon {
+  height: 2.625em;
+}
+
+.actions {
+  padding: 20px 0;
+  text-align: center;
+}
+
+button {
+  width: 5.75rem;
+  height: 5.75rem;
+  border: none;
+  border-radius: 50%;
+}
+
+#accept-button:hover {
+  background-color: #dbfff4;
+}
+
+#reject-button:hover {
+  background-color: #ffe7ef;
+}
+
+h1 {
+  text-align: center;
+}
